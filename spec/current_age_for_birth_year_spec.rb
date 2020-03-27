@@ -1,6 +1,3 @@
-def current_age_for_birth_year
-end
-
 require_relative '../current_age_for_birth_year.rb'
 
 describe "current_age_for_birth_year method" do
@@ -9,4 +6,6 @@ describe "current_age_for_birth_year method" do
 
     expect(age_of_person).to eq(19)
   end
+end
+def current_age_for_birth_year
 end
